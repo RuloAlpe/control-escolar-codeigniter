@@ -52,7 +52,7 @@ $(document).ready(function(){
 		var data = $('#js-form-registro').serialize();
 
 		$.ajax({
-			url: 'controlescolar/registroalumno',
+			url: 'registroalumno',
 			type: 'POST',
 			dataType:'json',
 			data: data,

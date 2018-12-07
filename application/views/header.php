@@ -22,13 +22,13 @@
             <div class="collapse navbar-collapse" id="navbarsExampleDefault">
                 <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Registro alumnos</a>
+                    <a class="nav-link" href="index">Registro alumnos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="<?= 'controlescolar/materias' ?>">Registrar materias</a>
+                    <a class="nav-link" href="<?= 'materias' ?>">Registrar materias</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Relacion Alumno/materia</a>
+                    <a class="nav-link" href="<?= 'alumno_materias' ?>">Relacion Alumno/materia</a>
                 </li>
                 <!-- <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>

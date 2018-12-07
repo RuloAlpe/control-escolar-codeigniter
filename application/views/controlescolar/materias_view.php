@@ -30,9 +30,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			</thead>
 
 			<tbody class="js-body-tabla">
-				<?php foreach ($alumnos as $item) { ?>      
+				<?php foreach ($materias as $item) { ?>      
 					<tr>
-						<td><?php echo $item->matricula; ?></td>
+						<td><?php echo $item->clave_materia; ?></td>
 						<td><?php echo $item->nombre; ?></td>          
 						<td>
 							
@@ -52,7 +52,7 @@ $(document).ready(function(){
 		var data = $('#js-form-registro').serialize();
 
 		$.ajax({
-			url: 'controlescolar/registromateria',
+			url: 'registromateria',
 			type: 'POST',
 			dataType:'json',
 			data: data,
