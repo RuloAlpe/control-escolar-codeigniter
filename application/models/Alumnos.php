@@ -13,7 +13,7 @@ class Alumnos extends CI_Model{
 
     public function crear_alumno($matricula, $nombre){
         
-        return $query = $this->db->query("insert into alumnos value('".$matricula."','".$nombre."')");
+        return $query = $this->db->query("insert into alumnos (matricula, nombre) value('".$matricula."','".$nombre."')");
     }
 }
 ?>
